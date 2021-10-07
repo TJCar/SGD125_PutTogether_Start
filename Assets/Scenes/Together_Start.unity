@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 474442812}
   m_Layer: 0
   m_Name: Node (2)
-  m_TagString: Node
+  m_TagString: node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -444,7 +444,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5000001
-  m_Speed: 10
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -763,7 +763,7 @@ GameObject:
   - component: {fileID: 1590579016}
   m_Layer: 0
   m_Name: Node (1)
-  m_TagString: Node
+  m_TagString: node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1111,7 +1111,7 @@ GameObject:
   - component: {fileID: 1817687797}
   m_Layer: 0
   m_Name: Node (3)
-  m_TagString: Node
+  m_TagString: node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1394,6 +1394,19 @@ MonoBehaviour:
   speed: 10
   turnSmoothTime: 0.05
   cam: {fileID: 82134440}
+--- !u!135 &2050020282
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050020280}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 10
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &2050020284 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6283483977946698666, guid: 43a6127e5c8a3d242875bef8270de847, type: 3}
@@ -1413,7 +1426,7 @@ GameObject:
   - component: {fileID: 2087387525}
   m_Layer: 0
   m_Name: Node
-  m_TagString: Node
+  m_TagString: node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
